@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import axios from "axios"
 export default function TaskItems() {
     const [itemText, setItemText ] = useState('')
-    const [setTaskItems, getTaskItems] = useState([])
+    const [taskItems, setTaskItems] = useState([])
     const addTask = async (e) => {
         e.preventDefault();
         try{
@@ -36,7 +36,7 @@ export default function TaskItems() {
             </form>
             <div className="task-list">
                 {
-                    setTaskItems.map(item => (
+                    taskItems.map(item => (
                     <div className="task-item">
                     <p className="task-content">{item.item}</p>
                     <button className="update-task">Update</button>
