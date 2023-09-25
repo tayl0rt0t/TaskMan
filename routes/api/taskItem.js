@@ -8,7 +8,7 @@ router.post('/api/task', async (req,res) => {
             item: req.body.item
         })
         const saveItem = await newTask.save()
-        res.status(200).json('Task added');
+        res.status(200).json(saveItem);
     }
     catch(err){
         res.json(err);
@@ -34,7 +34,7 @@ router.put('/api/task/:id', async (req,res)=> {
         res.json(err);
     }
 })
-router.delete('api/task/:id', async (req,res)=> {
+router.delete('/api/task/:id', async (req,res)=> {
     try{
         const deleteItem = await taskItemsModel.findByIdAndDelete(req.params.id);
         res.status(200).json('deleted')

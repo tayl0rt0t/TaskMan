@@ -13,11 +13,12 @@ NavBar({user,setUser}){
 
     return(
         <nav>
-            <>Welcome, {user.name}</>
-            <Link to="/orders">Order History</Link>
+            <>Welcome, {user.name} </>
+            {/* <Link to="/orders">Order History</Link> */}
       &nbsp; | &nbsp;
-      <Link to="/orders/new">New Order</Link>
+      {/* <Link to="/orders/new">New Order</Link> */}
       <Link to='/task'>Tasks</Link>
+      &nbsp; | &nbsp;
       <Link to='' onClick={handleLogout}>Log Out</Link>
         </nav>
     )
