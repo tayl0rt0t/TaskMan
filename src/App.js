@@ -6,6 +6,8 @@ import AuthPage from "./pages/AuthPage";
 import NavBar from "./components/NavBar/Navbar";
 import { getUser } from "./utilities/users-service";
 import "./App.css";
+import TaskItems from "./pages/TaskItems";
+
 
 function App() {
   const [user, setUser] = useState(getUser());
@@ -19,6 +21,7 @@ function App() {
           <Routes>
             <Route path="/orders/new" element={<NewOrderPage />} />
             <Route path="/orders" element={<OrderHistoryPage />} />
+            <Route path='/task' element={<TaskItems/>}/>
           </Routes>
         </>
       ) : (

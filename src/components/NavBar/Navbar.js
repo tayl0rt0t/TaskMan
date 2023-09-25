@@ -17,6 +17,7 @@ NavBar({user,setUser}){
             <Link to="/orders">Order History</Link>
       &nbsp; | &nbsp;
       <Link to="/orders/new">New Order</Link>
+      <Link to='/task'>Tasks</Link>
       <Link to='' onClick={handleLogout}>Log Out</Link>
         </nav>
     )

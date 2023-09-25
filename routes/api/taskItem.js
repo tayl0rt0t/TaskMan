@@ -15,7 +15,7 @@ router.post('/api/task', async (req,res) => {
     }
 })
 
-router.get('/api/task', async (req,res)=> {
+router.get('/api/tasks', async (req,res)=> {
     try{
         const allTaskItems = await taskItemsModel.find({});
         res.status(200).json(allTaskItems)
