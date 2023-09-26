@@ -22,3 +22,13 @@ At Taskman, we're always improving, and part of improving is being honest with i
 ### Future Enhancements
 
 Taskman has a ton of potential. One way we intend to improve Taskman is by having a drag and drop feature similar to trello, as well as multiple task lists for each day of the week. A gentle alarm feature would be helpful as well, for those who like to work in time intervals before taking short breaks. Darkmode is another feature we strive to implement here at Taskman.
+
+### Planning/resources
+wireframe- 
+https://www.canva.com/design/DAFvfpz4HaE/v9NssvfvO4yB0qtXf6-RXg/edit?utm_content=DAFvfpz4HaE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+Taskman Current/MVP- 
+https://trello.com/b/uhpp3NJe/taskman
+
+Taskman Icebox - 
+https://trello.com/b/Eh7ygQSJ/taskman-icebox
