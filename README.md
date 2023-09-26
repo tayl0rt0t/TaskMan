@@ -2,6 +2,11 @@
 
 Taskman is the simply helpful task manager app with minimal features, so that users can focus on managing their workload for the day. The sleek, minimal design ensures there are no distractions - nothing pretty to look at, no affiliate marketing and distracting ads. It does one thing and one thing only - Creates, Reads, Updates, and Deletes tasks. When you need a full CRUD todo, taskman is here for you. 
 
+![Alt text](<Screenshot 2023-09-26 at 7.38.26 AM.png>)
+
+
+
+
 ## Technologies
 
 Taskman is built with MongoDB, ExpressJS, and React, and NodeJs. It's full stack and reliable.
