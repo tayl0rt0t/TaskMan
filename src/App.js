@@ -18,6 +18,8 @@ function App() {
       {user ? (
         <>
           <NavBar user={user} setUser={setUser}/>
+          <br/>
+          <h1 className="heading">T A S K M A N</h1>
           <Routes>
             <Route path="/orders/new" element={<NewOrderPage />} />
             <Route path="/orders" element={<OrderHistoryPage />} />

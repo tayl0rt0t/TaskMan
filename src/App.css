@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+.heading{
+  color: slategray;
+  font-weight: bolder;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
