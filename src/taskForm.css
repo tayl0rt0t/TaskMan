@@ -53,4 +53,10 @@
 .update-form{
     display: flex;
     justify-content: center;
+    
+}
+.task-item{
+    color:whitesmoke;
+    font-size: larger;
+    font-weight: bold;
 }
