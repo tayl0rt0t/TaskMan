@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import '../../src/taskForm.css'
 import axios from "axios";
 export default function TaskItems() {
   const [itemText, setItemText] = useState("");
@@ -66,9 +67,10 @@ export default function TaskItems() {
   );
 
   return (
-    <div>
+    <div className='main-container'>
       <form className="taskForm" onSubmit={(e) => addTask(e)}>
-        <input
+        
+        <input className="task-text"
           type="text"
           placeholder="add a task"
           onChange={(e) => {
@@ -76,7 +78,8 @@ export default function TaskItems() {
           }}
           value={itemText}
         />
-        <button type="submit">Add</button>
+        <button type="submit" className="addbtn">Add</button>
+        
       </form>
       <div className="task-list">
         {taskItems.map((item) => (

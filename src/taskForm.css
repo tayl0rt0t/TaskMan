@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+.taskForm {
+    display: flex;
+    
+    justify-content: center;
+    
+}
+.main-container{
+    
+    display: flex;
+    justify-content: flex-start;
+    
+    margin-top: 4%;
+    
+    min-height: 80vh;
+    width: 30vw;
+    
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:slategray;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.task-text{
+    display: flex;
+    
+    height: 5vh;
+    width: 10vw;
+    align-self: flex-end;
+    
+    
+}
+
+.addbtn{
+    width: 10vw;
+    height: 5vh;
+    margin-top: 0%;
+}
+.task-list{
+    margin-top: 5%;
+    align-items: center;    
+    
+    
+    
+    
+}
+.update-form{
+    display: flex;
+    justify-content: center;
+}
